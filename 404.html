@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="meta.404_title">Página no encontrada — ILS Innovative Lighting Systems</title>
+<meta name="description" content="La página que buscas no existe o se ha movido." data-i18n-content="meta.404_description">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/icons/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="assets/icons/favicon-16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="nav.home">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo-link" aria-label="ILS — Innovative Lighting Systems">
+      <img src="assets/logo/ils-logo.png" alt="ILS — Innovative Lighting Systems" class="logo-img" data-logo-variant="dark" width="140" height="42">
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="index.html#capacidades" data-i18n="nav.capabilities">Capacidades</a></li>
+        <li><a href="proyectos.html" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="noticias.html" data-i18n="nav.news">Noticias</a></li>
+        <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Selector de idioma">
+        <button type="button" data-lang-btn="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+      <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">
+        <span class="icon-bars"><span></span></span>
+        <span data-i18n="nav.menu_open">Abrir menú</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="error-page">
+    <div class="container text-center">
+      <p class="error-code">404</p>
+      <h1 data-i18n="404_page.heading">Página no encontrada</h1>
+      <p data-i18n="404_page.text">La página que buscas no existe o se ha movido de sitio.</p>
+      <a href="index.html" class="btn btn--primary" data-i18n="404_page.cta">Volver al inicio</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <img src="assets/logo/ils-logo.png" alt="ILS — Innovative Lighting Systems" class="logo-img" data-logo-variant="light" width="140" height="42">
+        <p data-i18n="footer.claim">Iluminación de precisión, en la escala exacta que tu proyecto necesita.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.nav_heading">Navegación</h4>
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <a href="proyectos.html" data-i18n="nav.projects">Proyectos</a>
+        <a href="noticias.html" data-i18n="nav.news">Noticias</a>
+        <a href="contacto.html" data-i18n="nav.contact">Contacto</a>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.legal_heading">Legal</h4>
+        <a href="privacidad.html" data-i18n="footer.privacy">Privacidad</a>
+        <a href="cookies.html" data-i18n="footer.cookies">Cookies</a>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.follow_heading">Síguenos</h4>
+        <a href="https://es.linkedin.com/company/andaltec-ils" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-current-year></span> <span data-i18n="footer.copyright">ILS — Innovative Lighting Systems, S.L. Todos los derechos reservados.</span></p>
+      <div class="footer-lang" role="group" aria-label="Selector de idioma">
+        <button type="button" data-lang-btn="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="data/translations.js"></script>
+<script src="data/projects.js"></script>
+<script src="data/news.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
