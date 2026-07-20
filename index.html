@@ -120,6 +120,32 @@
     </div>
   </section>
 
+  <section class="section section--paper">
+    <div class="container">
+      <div class="section-heading">
+        <p class="mono-tag" data-i18n="what_we_do.heading">Qué hacemos</p>
+        <h2 data-i18n="what_we_do.heading">Qué hacemos</h2>
+        <p data-i18n="what_we_do.intro">Cuatro disciplinas, un mismo rigor: de la óptica delantera a la iluminación para defensa.</p>
+      </div>
+      <div class="grid grid--4 mt-lg" id="whatWeDoGrid"></div>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-heading center">
+        <p class="mono-tag" data-i18n="process.heading">De la idea a la validación</p>
+        <h2 data-i18n="process.heading">De la idea a la validación</h2>
+      </div>
+      <div class="grid grid--5 mt-lg" id="processSteps"></div>
+      <figure class="facility-figure mt-lg">
+        <img src="assets/images/facility-tunnel-real.png" alt="" loading="lazy" width="876" height="366">
+        <figcaption data-i18n="process.facility_caption">Túnel fotométrico — instalación real de ensayo</figcaption>
+      </figure>
+      <p class="text-center mt-lg" data-i18n="process.closing">ILS acompaña a sus clientes durante todo el proceso de desarrollo de iluminación.</p>
+    </div>
+  </section>
+
   <section class="section section--paper" id="capacidades">
     <div class="container">
       <div class="section-heading">
@@ -256,6 +282,30 @@
     if (grid && Array.isArray(cards)) {
       grid.innerHTML = cards.map(function (c) {
         return '<div class="data-card"><p class="mono-tag">' + c.label + '</p><p>' + c.value + '</p></div>';
+      }).join("");
+    }
+
+    var workCards = t("what_we_do.cards");
+    var workGrid = document.getElementById("whatWeDoGrid");
+    if (workGrid && Array.isArray(workCards)) {
+      workGrid.innerHTML = workCards.map(function (c) {
+        return (
+          '<article class="work-card">' +
+            '<img src="' + c.image + '" alt="" loading="lazy" width="800" height="600">' +
+            '<div class="work-card__body">' +
+              '<h3>' + c.title + '</h3>' +
+              '<p>' + c.text + '</p>' +
+            '</div>' +
+          '</article>'
+        );
+      }).join("");
+    }
+
+    var steps = t("process.steps");
+    var stepsGrid = document.getElementById("processSteps");
+    if (stepsGrid && Array.isArray(steps)) {
+      stepsGrid.innerHTML = steps.map(function (s) {
+        return '<div class="data-card"><p class="mono-tag">' + s.n + '</p><h3>' + s.title + '</h3><p>' + s.text + '</p></div>';
       }).join("");
     }
   }

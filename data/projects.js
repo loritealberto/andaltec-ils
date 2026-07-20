@@ -2,7 +2,7 @@ window.ILS_PROJECTS = [
   {
     "ref": "ILS-0001",
     "sector": "luxury",
-    "image": "assets/images/project-luxury-01.svg",
+    "image": "assets/images/project-luxury-headlamp.jpg",
     "es": {
       "title": "Faro delantero para hiperdeportivo de edición limitada",
       "text": "Faro delantero para un hiperdeportivo de edición limitada. Óptica a medida, integración desde concepto, acabado de serie cero."
@@ -15,7 +15,7 @@ window.ILS_PROJECTS = [
   {
     "ref": "ILS-0002",
     "sector": "defence",
-    "image": "assets/images/project-defence-01.svg",
+    "image": "assets/images/project-defense-vehicle.jpg",
     "es": {
       "title": "Mando de luces para vehículo militar",
       "text": "Mando de luces para el manillar de un vehículo militar. Diseño y fabricación completos a especificación no estándar."
@@ -28,7 +28,7 @@ window.ILS_PROJECTS = [
   {
     "ref": "ILS-0003",
     "sector": "luxury",
-    "image": "assets/images/project-luxury-02.svg",
+    "image": "assets/images/capability-taillight.jpg",
     "es": {
       "title": "Piloto trasero para GT de serie limitada",
       "text": "Piloto trasero para un GT de serie limitada. Desarrollo óptico y homologación europea."
