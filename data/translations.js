@@ -69,7 +69,45 @@ window.ILS_TRANSLATIONS = {
         { "label": "MONTAJE", "value": "Línea de montaje con sala blanca · Integración de robots y cobots" },
         { "label": "METROLOGÍA", "value": "Medición 3D hasta 1.200 × 3.000 × 1.000 mm y 2.250 kg · Escaneado 3D con resolución de 0,0014 mm" },
         { "label": "CAPACIDAD", "value": "De 1 unidad a series cortas · Hasta 6.000 unidades/año de faros, pilotos e iluminación interior" },
-        { "label": "RESPALDO", "value": "Fundación Andaltec · 10.000 m² · 120+ profesionales · presencia en más de 20 países" }
+        { "label": "RESPALDO", "value": "Fundación Andaltec · +20 años de trayectoria en ingeniería · 10.000 m² · 120+ profesionales · presencia en más de 20 países" }
+      ]
+    },
+    "what_we_do": {
+      "heading": "Qué hacemos",
+      "intro": "Cuatro disciplinas, un mismo rigor: de la óptica delantera a la iluminación para defensa.",
+      "cards": [
+        {
+          "image": "assets/images/capability-headlamp.jpg",
+          "title": "Faros a medida",
+          "text": "Sistemas de iluminación delantera desarrollados para vehículos de lujo y de altas prestaciones."
+        },
+        {
+          "image": "assets/images/capability-taillight.jpg",
+          "title": "Pilotos con firma lumínica",
+          "text": "Arquitecturas de señalización trasera distintivas, diseñadas para crear una identidad de vehículo única."
+        },
+        {
+          "image": "assets/images/capability-optics-module.jpg",
+          "title": "Módulos ópticos avanzados",
+          "text": "Sistemas ópticos ultracompactos diseñados para plataformas de vehículos de nueva generación."
+        },
+        {
+          "image": "assets/images/capability-defense.jpg",
+          "title": "Iluminación para defensa",
+          "text": "Tecnologías de iluminación de altas prestaciones adaptadas a aplicaciones de defensa exigentes."
+        }
+      ]
+    },
+    "process": {
+      "heading": "De la idea a la validación",
+      "closing": "ILS acompaña a sus clientes durante todo el proceso de desarrollo de iluminación.",
+      "facility_caption": "Túnel fotométrico — instalación real de ensayo",
+      "steps": [
+        { "n": "01", "title": "Concepto", "text": "Identificación del ADN lumínico del vehículo." },
+        { "n": "02", "title": "Ingeniería óptica", "text": "Desarrollo de arquitecturas ópticas a medida." },
+        { "n": "03", "title": "Prototipo", "text": "Piezas de validación funcional y estética." },
+        { "n": "04", "title": "Validación fotométrica", "text": "Ensayos en uno de los túneles fotométricos más grandes de Europa." },
+        { "n": "05", "title": "Industrialización", "text": "Listo para la producción en serie." }
       ]
     },
     "cta_final": {
@@ -220,7 +258,45 @@ window.ILS_TRANSLATIONS = {
         { "label": "ASSEMBLY", "value": "Assembly line with clean room · Robot and cobot integration" },
         { "label": "METROLOGY", "value": "3D measurement up to 1,200 × 3,000 × 1,000 mm and 2,250 kg · 3D scanning with 0.0014 mm resolution" },
         { "label": "CAPACITY", "value": "From 1 unit to short runs · Up to 6,000 units/year of headlamps, tail lamps and interior lighting" },
-        { "label": "BACKING", "value": "Andaltec Foundation · 10,000 m² · 120+ professionals · active in more than 20 countries" }
+        { "label": "BACKING", "value": "Andaltec Foundation · 20+ years of engineering track record · 10,000 m² · 120+ professionals · active in more than 20 countries" }
+      ]
+    },
+    "what_we_do": {
+      "heading": "What we do",
+      "intro": "Four disciplines, one standard of rigour: from front optics to defence lighting.",
+      "cards": [
+        {
+          "image": "assets/images/capability-headlamp.jpg",
+          "title": "Bespoke headlamp systems",
+          "text": "Custom lighting systems developed for luxury and high-performance vehicles."
+        },
+        {
+          "image": "assets/images/capability-taillight.jpg",
+          "title": "Rear signature lighting",
+          "text": "Distinctive rear signalling architectures designed to create a unique vehicle identity."
+        },
+        {
+          "image": "assets/images/capability-optics-module.jpg",
+          "title": "Advanced lighting modules",
+          "text": "Ultra-compact optical systems engineered for next-generation vehicle platforms."
+        },
+        {
+          "image": "assets/images/capability-defense.jpg",
+          "title": "Defence lighting solutions",
+          "text": "High-performance lighting technologies adapted for demanding defence applications."
+        }
+      ]
+    },
+    "process": {
+      "heading": "From idea to validation",
+      "closing": "ILS supports customers throughout the complete lighting development process.",
+      "facility_caption": "Photometric tunnel — real test facility",
+      "steps": [
+        { "n": "01", "title": "Concept", "text": "Identifying the vehicle's lighting DNA." },
+        { "n": "02", "title": "Optical engineering", "text": "Development of custom optical architectures." },
+        { "n": "03", "title": "Prototype", "text": "Functional and aesthetic validation parts." },
+        { "n": "04", "title": "Photometric validation", "text": "Testing in one of Europe's largest photometric tunnels." },
+        { "n": "05", "title": "Industrialisation", "text": "Ready for series production." }
       ]
     },
     "cta_final": {
